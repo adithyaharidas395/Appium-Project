@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-15T12:18:37 IST" name="Suite" finished-at="2022-11-15T12:19:17 IST" duration-ms="40737">
+    <groups>
+    </groups>
+    <test started-at="2022-11-15T12:18:37 IST" name="Test" finished-at="2022-11-15T12:19:17 IST" duration-ms="40737">
+      <class name="com.intebanking.testCases.Tc_Delete_Account_Gtpl">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.intebanking.testCases.Tc_Delete_Account_Gtpl@65c7a252]" started-at="2022-11-15T12:18:37 IST" name="setup" finished-at="2022-11-15T12:18:57 IST" duration-ms="20517" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="DELETEAccount()[pri:0, instance:com.intebanking.testCases.Tc_Delete_Account_Gtpl@65c7a252]" started-at="2022-11-15T12:18:57 IST" name="DELETEAccount" finished-at="2022-11-15T12:19:07 IST" duration-ms="9215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DELETEAccount -->
+        <test-method signature="blankdelete()[pri:0, instance:com.intebanking.testCases.Tc_Delete_Account_Gtpl@65c7a252]" started-at="2022-11-15T12:19:07 IST" name="blankdelete" finished-at="2022-11-15T12:19:11 IST" duration-ms="3828" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- blankdelete -->
+        <test-method signature="testreset()[pri:0, instance:com.intebanking.testCases.Tc_Delete_Account_Gtpl@65c7a252]" started-at="2022-11-15T12:19:11 IST" name="testreset" finished-at="2022-11-15T12:19:17 IST" duration-ms="6656" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testreset -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.intebanking.testCases.Tc_Delete_Account_Gtpl@65c7a252]" started-at="2022-11-15T12:19:17 IST" name="tearDown" finished-at="2022-11-15T12:19:17 IST" duration-ms="269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.intebanking.testCases.Tc_Delete_Account_Gtpl -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
